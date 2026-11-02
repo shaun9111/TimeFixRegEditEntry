@@ -72,13 +72,17 @@ You do not need to set your Windows time zone to UTC. Windows will convert the U
 
 If you want Windows to return to its default hardware-clock behavior, create another .reg file containing:
 
+```
 Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
 "RealTimeIsUniversal"=-
+```
 
 Save it as:
 
+```
 Undo-Windows-UTC-Time.reg
+```
 
 Run the file and restart Windows.
 
