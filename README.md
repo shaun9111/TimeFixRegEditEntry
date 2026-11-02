@@ -33,15 +33,19 @@ Option 1 — Create a Registry File
 1. Open Notepad.
 2. Copy the following code:
 
+```
 Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
 "RealTimeIsUniversal"=dword:00000001
+```
 
 3. Click File → Save As.
 4. Set Save as type to All Files.
 5. Name the file:
 
+```
 Windows-UTC-Time.reg
+```
 
 6. Double-click the .reg file.
 7. Approve the Windows Registry/UAC prompts.
